@@ -26,5 +26,16 @@ public class MainProgram {
 
         decrypted = vigenereCipher.decrypt(encoded, "pawan");
         System.out.println("Decoded: "+decrypted);
+
+
+        // MonoAlphabetic cipher
+        System.out.println("/nMonoAlphabetic Cipher: \n");
+
+        MonoAlphabeticCipher monoAlphabeticCipher = new MonoAlphabeticCipher();
+        encoded = monoAlphabeticCipher.encrypt("PAWAN");
+        System.out.println("Encoded: "+encoded);
+
+        decrypted = monoAlphabeticCipher.decrypt(encoded);
+        System.out.println("Decoded: "+decrypted);
     }
 }
