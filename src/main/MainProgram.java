@@ -1,9 +1,11 @@
+package main;
+
 public class MainProgram {
 
     public static void main(String []args){
 
         String plainText = "BlockChain";
-        String encoded = null;
+        String encoded;
 
         // Caesar cipher
         CaesarCipher caesarCipher = new CaesarCipher();

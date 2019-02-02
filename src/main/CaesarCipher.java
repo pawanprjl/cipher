@@ -1,3 +1,5 @@
+package main;
+
 public class CaesarCipher {
 
     public static String encrypt(String text, int key){
