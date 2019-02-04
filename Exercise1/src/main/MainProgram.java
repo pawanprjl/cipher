@@ -7,7 +7,7 @@ public class MainProgram {
         String plainText = "BlockChain";
         String encoded;
 
-        System.out.println("Caesar Cipher: \n");
+        System.out.println("Caesar Cipher: ");
 
         // Caesar cipher
         CaesarCipher caesarCipher = new CaesarCipher();
@@ -18,7 +18,7 @@ public class MainProgram {
         System.out.println("Decoded: "+decrypted);
 
         // Vigenere cipher
-        System.out.println("/nVigenere Cipher: \n");
+        System.out.println("\nVigenere Cipher: ");
 
         VigenereCipher vigenereCipher = new VigenereCipher();
         encoded = vigenereCipher.encrypt(plainText, "pawan");
@@ -29,7 +29,7 @@ public class MainProgram {
 
 
         // MonoAlphabetic cipher
-        System.out.println("/nMonoAlphabetic Cipher: \n");
+        System.out.println("\nMonoAlphabetic Cipher: ");
 
         MonoAlphabeticCipher monoAlphabeticCipher = new MonoAlphabeticCipher();
         encoded = monoAlphabeticCipher.encrypt("PAWAN");
